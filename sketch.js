@@ -33,8 +33,7 @@ function draw() {
   moveBall()
   checkBounce()
   checkWallBounce()
-  
-  
+   
   if (keyIsDown(LEFT_ARROW)){
 
     if (x < 1){
@@ -59,6 +58,7 @@ function draw() {
 
   
 }
+
 
 function moveBall(){
   a = a + xballSpeed 
